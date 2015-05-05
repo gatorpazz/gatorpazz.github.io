@@ -15,6 +15,10 @@
   *Engages errors to better themselves  
   *Focuses on the process rather than the end goal  
 
-4. Personal Experience
+4. Personal Experience  
   *Highschool pressure, fixed mindset to get the best grade possible  
   *Had no qualms about cheating if it would make the grade  
+
+5. Application to Iron Yard  
+  *Focus on learning the process rather than trying to achieve end result  
+  *Don't be afraid to mess up, make it okay to fail and learn from failure  
