@@ -5,7 +5,7 @@ Basic Literal Types
 Javascript has a number of value types that have unique properties: 
 
 1. Null: basically a null value has no value at all, you can think of this in the terms of null and void, which means something is insignificant, having no value.  
-  *Example: A variable initialized by typing var a; if no value is assigned by to it, a is a null value  
+  *Example: A variable (basically a place we store a value) initialized and declared by typing var a = null; null basically represents no value.
 
 2. Boolean: a boolean value is easy, there are only two possible choices for what can be a boolean value and that is true and false. This is used in javascript (and other programming languages) to branch directions code can take. This type of value can be declared directly by typing 'true' or 'false', or through the use of comparison operators such as < or >.  
   *Examples: var a = true; a is a boolean value, var a = 5 < 3; evaluating that 5 is not less than 3 makes a evaluate to 'false'  
@@ -25,3 +25,35 @@ Javascript has some weird special constants that pop up from time to time:
 2. NaN: NaN stands for not a number. This will pop up generally when you try some weird or impossible math.  
   *Examples: dividing any number by zero will evaluate to NaN because it's impossible. Taking a square root of a negative number will evaluate to NaN. Trying to do math with number values and string values will give you NaN unless the string is only made up of number characters, in which case javascript will convert the string to a number.  
   
+3. undefined: undefined is like the null value except no value is assigned at all to an initialized variable. They're both rather worthless  
+  *Example: Initializing var a; if no value is assigned then a will be undefined.
+
+Basic Operators
+
+Operators are basically tools used in javascript to manipulate values.
+
+Types of Operators:
+
+1. Arithmetic: these operators are used to make number expressions. It's elementary school math basically  
+  * + will be used to add numbers, 1 + 1 is 2 and so forth  
+  * - will be used to subtract numbers, 5 - 3 is 2  
+  * / will be used to divide numbers  
+  * The * will be used to multiply numbers, 5 * 5 is 25  
+
+Bonus Arithmetic Operators:  
+  * ++ is used to increment (increase) by 1  
+  * -- is used to decrement (decrease) by 1  
+  * % (modulus) gives remainders, 5 % 2 will give 1 because 5 / 2 is 4 with a remainder of 1  
+
+2. Assignment: these operators assign values to variables.  
+  * =, x = 5; assigns 5 to x variable  
+
+3. Comparison: these operators make expressions that make true or false boolean values  
+  * == is	equal to, do NOT use = as equal to, 2 == 2 is true, 3 == "3" is true  
+  * ===	equal value and equal type, view it kind of like IDENTICAL, a stricter ==, 3 === 3 is true, 3 === "3" is false because they're not the same type  
+  * !=	not equal, 5 != 6 is true, 6 != 6 is false  
+  * !==	not equal value or not equal type 6 !== 6 is false, 6 !== "6" is true because they're different types  
+  * >	greater than, 5 > 2 is true, 6 > 9 is false  
+  * <	less than, 3 < 5 is true, 5 < 5 is false  
+  * >=	greater than or equal to, 5 >= 3 is true, 5 >= 5 is true  
+  * <=	less than or equal to, 4 <= 5 is true, 4 <= 4 is true  
