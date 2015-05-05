@@ -1,9 +1,9 @@
 #Fixed Mindset Essay Outline
 
 1. Introduction:  
-  *Two Types of Mindset  
-   *Growth mindset: An understanding that intelligence can be developed  
-   *Fixed mindset: Set in the Now, intelligence up for judgement  
+  *Two Types of Mindsets  
+    *Growth mindset: An understanding that intelligence can be developed  
+    *Fixed mindset: Set in the Now, intelligence up for judgement  
 
 2. Fixed mindset  
   *Study shows more likely to cheat rather than study next time if they failed a test  
@@ -15,3 +15,6 @@
   *Engages errors to better themselves  
   *Focuses on the process rather than the end goal  
 
+4. Personal Experience
+  *Highschool pressure, fixed mindset to get the best grade possible  
+  *Had no qualms about cheating if it would make the grade  
