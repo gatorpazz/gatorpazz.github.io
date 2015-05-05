@@ -9,3 +9,9 @@
   *Study shows more likely to cheat rather than study next time if they failed a test  
   *Another study shows they'll find someone worse to feel better about themselves  
   *Tend to run from the error rather than engage with the error (brain scan)
+
+3. Growth mindset  
+  *Not afraid to mess up  
+  *Engages errors to better themselves  
+  *Focuses on the process rather than the end goal  
+
