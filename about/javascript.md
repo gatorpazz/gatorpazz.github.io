@@ -23,7 +23,7 @@ Javascript has some weird special constants that pop up from time to time:
 1. Infinity: Infinity is basically a way for javascript to say the number you have is too big. Infinity is displayed when a number exceeds the upper limit of the floating point numbers, which is 1.797693134862315E+308. Infinity can be negative or positive.  
 
 2. NaN: NaN stands for not a number. This will pop up generally when you try some weird or impossible math.  
-  * Examples: dividing any number by zero will evaluate to NaN because it's impossible. Taking a square root of a negative number will evaluate to NaN. Trying to do math with number values and string values will give you NaN unless you're using a + sign, in which case it will concatenate (glue together) the values into a single string or if your strings are made up of only numbers, in which case javascript will convert it into a number value and do normal math.  
+  * Examples: dividing any number by zero will evaluate to NaN because it's impossible. Taking a square root of a negative number will evaluate to NaN. Trying to do math with number values and string values will give you NaN unless you're using a + sign, in which case it will concatenate (glue together) the values into a single string or if your strings are made up of only numbers, in which case javascript will convert it into a number value and do normal math with any other operator besides +.  
   
 3. undefined: undefined is like the null value except no value is assigned at all to an initialized variable. They're both rather worthless  
   * Example: Initializing var a; if no value is assigned then a will be undefined.
