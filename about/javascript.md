@@ -1,6 +1,6 @@
-#Javascript  
+##Javascript  
 
-Basic Literal Types  
+#Basic Literal Types  
 
 Javascript has a number of value types that have unique properties: 
 
@@ -15,8 +15,8 @@ Javascript has a number of value types that have unique properties:
   
 4. String: a string value basically refers to sequences of characters, strings can be numbers or letters and are made by putting " " around characters.  
   * Examples: "A" "352" "Michael Pascuzzi" are all strings, in this case "352" is not a number literal type  
-  
-Special Constants  
+
+#Special Constants  
 
 Javascript has some weird special constants that pop up from time to time:  
 
@@ -28,7 +28,7 @@ Javascript has some weird special constants that pop up from time to time:
 3. undefined: undefined is like the null value except no value is assigned at all to an initialized variable. They're both rather worthless  
   * Example: Initializing var a; if no value is assigned then a will be undefined.
 
-Basic Operators
+#Basic Operators
 
 Operators are basically tools used in javascript to manipulate values.
 
@@ -68,3 +68,40 @@ Bonus Arithmetic Operators:
     * Examples: 5 >= 3 is true, 5 >= 5 is true  
   * <=	less than or equal to  
     * Examples: 4 <= 5 is true, 4 <= 4 is true  
+
+#Keyword operators
+
+  * typeof, typeof reads any value immediately following it and returns a string that gives the name of that value type
+    * Examples: typeof 5 will return 'number', typeof true will return 'boolean', typeof "hat" will return 'string'
+  * var, var declares whatever follows it to be a variable, variable names have to begin with letters
+    * Examples: var a; declares a to be a variable, var 1; is illegal and will throw an error
+
+#Functions
+
+Functions are sections of code that are saved and reused throughout a program. They are given names that abstract their function and make it easier to put programming processes into plain english.  
+
+Function syntax:  
+
+You create a function starting with the function keyword and following it with a name of your choosing, preferably one that describes the functions function. Following the name of the function there will be a set of parentheses in which any number of placeholder parameters can be put separated by commas. (EX. (a, b, c), (avgIncome, taxes)). Next a set of curly braces follows {}, and whatever is put between them makes up the code that will be run when the function is called. To call the function one simply has to put the function name followed by parentheses filled with whatever arguments are desired. The arguments will replace the parameters of the function definition. This process is called invoking the function.  
+
+Examples:  
+
+1. averaging function: this function will take three numbers and give their average  
+
+  ````javascript
+function avg(a, b, c) { // this part is the function defintion which will define the function
+  var d = (a + b + c) / 2; // when initialized a, b, and c will be replaced by whatever is typed
+  return d;
+}
+avg(15, 20, 25); /* this is the function invocation, the numbers in the parentheses replace the parameters and are averaged */
+  ````
+
+2. Celsius conversion function: this function converts fahrenheit to celsius
+
+  ````javascript
+ function toCelsius(fahrenheit) { // function definition that takes a fahrenheit value and converts it to celsius
+  return (5/9) * (fahrenheit-32);
+ }
+ 
+ toCelsius(451); // converts 451 F to 232.778 C
+    ````
