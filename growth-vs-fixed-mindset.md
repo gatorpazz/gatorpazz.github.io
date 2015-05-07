@@ -1,3 +1,4 @@
+--- ---
 #Fixed Mindset Essay Outline
 
 1. Introduction:  
