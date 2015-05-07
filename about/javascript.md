@@ -124,3 +124,9 @@ You can garble up an array in various ways:
 * array.unshift([some sort of thing you wanna add to the array]) will add an element to the beginning of an array  
 * array.push([other thing you wanna add to array]) will add element to the end of an array
 * array.pop() will remove last element of an array
+
+#Methods
+
+length is a method that will measure things in different situations. Array.length will return the number of items you have in an array. string.length will measure the number of characters in a string, including spaces.
+
+Examples: var a = "Screw     You"; a.length = 13, var b = ["Screw", "You"]; b.length = 2
