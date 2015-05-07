@@ -1,4 +1,3 @@
-# gatorpazz.github.io
 ---
 permalink: index.html
 ---
