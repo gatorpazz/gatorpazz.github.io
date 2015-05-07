@@ -105,3 +105,22 @@ avg(15, 20, 25); /* this is the function invocation, the numbers in the parenthe
  
  toCelsius(451); // converts 451 F to 232.778 C
     ````
+
+#Arrays  
+
+Arrays are variables that store values of information. They are formed like this:  
+
+var whateverNameYouLike = [];  
+
+You can put whatever you want inside an array, literally, anything. Including other arrays. ARRAYCEPTION! You just have to be sure to separate each value with a comma.  
+
+Examples: var dumbArray = [[1],["arf"]];, var agesOfMyClassMates = ["Fairly Old", "Old", "How are you alive???"];  
+
+Methods to use on an Array:
+
+You can garble up an array in various ways:
+
+* array.shift() will remove the first element of an array  
+* array.unshift([some sort of thing you wanna add to the array]) will add an element to the beginning of an array  
+* array.push([other thing you wanna add to array]) will add element to the end of an array
+* array.pop() will remove last element of an array
