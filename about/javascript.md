@@ -106,6 +106,12 @@ avg(15, 20, 25); /* this is the function invocation, the numbers in the parenthe
  toCelsius(451); // converts 451 F to 232.778 C
     ````
 
+{} Operator
+
+Curly braces are used to organize code and combine a set of statements in a block. They are also used to define an object literal (will put in later.)  
+
+* Example: Any function
+
 #Arrays  
 
 Arrays are variables that store values of information. They are formed like this:  
@@ -130,3 +136,51 @@ You can garble up an array in various ways:
 length is a method that will measure things in different situations. Array.length will return the number of items you have in an array. string.length will measure the number of characters in a string, including spaces.
 
 Examples: var a = "Screw     You"; a.length = 13, var b = ["Screw", "You"]; b.length = 2
+
+#Branching Statements
+
+if: if statements are used as a test to determine wheter to run particular lines of code. They are set up kinda the same way as functions.
+
+Example:  
+  ````javascript
+if ( x > 5 ) { //this tests whether a variable x is larger than 5
+  return "X is bigger than 5"; //this line of code executes only if x is larger than 5
+}
+  ````
+
+else: else is used for a number of purposes. It can be used in combination with if to form nested if statements or used alone for a code that will be executed if none of the if conditions are met.
+
+Example:
+  ````javascript
+if ( x > 5 ) { //this tests whether a variable x is larger than 5
+  return "X is bigger than 5"; //this line of code executes only if x is larger than 5
+} else if ( x > 2 ) { //this condition is tested if the previous if condition is not met
+    return "X is bigger than 2, but less than 5"; //this is executed if 2nd if condition is met and first fails
+  }
+    else { //this else statement has no conditions, it will run no matter what if all previous conditions fail
+      return "This number is tiny";
+    }
+  ````
+
+switch: switch is used a bit like if to branch different choices but is arguably more readable.
+
+Example:
+
+  ````javascript
+switch (expression) {
+  case value1:
+    //Statements executed when the result of expression matches value1
+    [break;]
+  case value2:
+    //Statements executed the result of expression matches value2
+    [break;]
+  ...
+  case valueN:
+    //Statements executed when the result of expression matches valueN
+    [break;]
+  default:
+    //Statements executed when none of the values match the value of the expression
+    [break;]
+}
+  ````
+ 
