@@ -214,3 +214,34 @@ throw "Error2"; // generates an exception with a string value
 throw 42;       // generates an exception with the value 42
 throw true;     // generates an exception with the value true
   ````
+
+#Loops
+
+for loop: for loops make a variable, sets a final condition for a variable and then executes some code. After the code is executed, the loop will then do something to the variable that works it towards the final condition, usually an increment or a decrement.  
+
+Example:
+  ````javascript
+for (var a = 1; a < 10; a++) { //var a is the variable made, as long as a < 10, a will increment then repeat code
+  console.log(a);
+}
+  ````
+
+while loop: while loops are loops that just have a single condition within its parentheses. If that condition is true the loop will run its inner code. It is neccessary to have a statement in the inner loop to eventually make the condition false, otherwise the loop will be infinite.  
+
+Example:  
+  ````javascript
+while ( a < 10 ) { //a is an already declared variable, as long as a < 10 while code will repeat
+  console.log(a);
+  a++; //without this statement, loop will run forever and use up all memory
+}
+  ````
+
+do: do is an addition to the while loop and is used if you want a loop to run at least one time, despite lacking the conditions. The condition is evaluated after the do statement is executed and will continue to loop as long as the condition is true.  
+
+  ````javascript
+var i = 0;
+do {
+   i += 1;
+   console.log(i);
+} while (i < 5);
+  ````
