@@ -120,6 +120,10 @@ var whateverNameYouLike = [];
 
 You can put whatever you want inside an array, literally, anything. Including other arrays. ARRAYCEPTION! You just have to be sure to separate each value with a comma.  
 
+* [1, 2, 3] array literal
+* Array(1, 2, 3) Turns 1, 2, 3 into an array of three
+* Array(3) Declares an empty array with a length of 3?
+
 Examples: var dumbArray = [[1],["arf"]];, var agesOfMyClassMates = ["Fairly Old", "Old", "How are you alive???"];  
 
 Methods to use on an Array:
