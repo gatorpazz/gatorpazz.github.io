@@ -249,3 +249,5 @@ do {
    console.log(i);
 } while (i < 5);
   ````
+
+EventTarget.addEventListener()
