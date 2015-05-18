@@ -1,3 +1,7 @@
+---
+
+---
+
 #Week One of My Journey
 
 The first week was a challenging one for me. Though the material wasn't the clusterfuck that I thought it would be, stuff that would literally blow my brain out of the water, I was so sick that learning became a drag rather than a joy. I missed a lot of important information because I was too busy on focusing my concentration on not throwing up rather than learning to navigate through git on both github and the command line.
