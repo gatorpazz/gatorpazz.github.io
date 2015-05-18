@@ -1,8 +1,4 @@
-Rough Draft
-
-The past week was a difficult one. Though the material wasn't the clusterfuck that I thought it would be that would blow my brain out of the water, I was so sick that learning became a drag rather than a joy. I missed a lot of important information because I was too busy on focusing my concentration on not throwing up rather than learning the subtleties of CLI git commands. The javascript needed a quick refresher but thanks to the assignments given, my own personal review, and Dave's ever charming wit, it all came flowing back quickly. The git commands and the prezto took a little longer but soon my terminal was looking colorful and at the very least I wasn't a complete clutz with cloning, adding, committing and all that jazz. Eventually my sickness bottomed out and I learned to appreciate the members of my class and am looking forward to spending the next 11 weeks with them.
-
-Final Draft
+#Week One of My Journey
 
 The first week was a challenging one for me. Though the material wasn't the clusterfuck that I thought it would be, stuff that would literally blow my brain out of the water, I was so sick that learning became a drag rather than a joy. I missed a lot of important information because I was too busy on focusing my concentration on not throwing up rather than learning to navigate through git on both github and the command line.
 
