@@ -17,6 +17,8 @@ Block-level elements stretch from left to right as far as they can
 
 width: setting the width of a block-level element prevents it from stretching to the edges of its containers
   * max-width: using max-width instead of width improves the browser's handling of small windows, important for making sites usable on mobile, supported by all browsers
+  * percent width: sets a unit relative to containing block
+    * Examples: used with images to set image 50% the size of containing element, can be used with min-width and max-width to limit how big or small the image can get
 margin: setting the margin to auto will horizontally center the element in its container
 
 ####Inline
@@ -25,6 +27,15 @@ Wraps text within a paragraph without disrupting paragraph flow
 
 1. span: standard inline-level element
 2. a: most common inline-level element, used for links
+
+####Inline-block
+
+inline-block: is used to create a grid of boxes that fills the browser width and wraps nicely
+  * Use hasLayout to support on old browsers
+  * Can be used for layouts
+    * vertical-align property: will most likely want to set to top
+    * Need to set the width of each column
+    * There will be a gap between the columns if there is any whitespace between them in the HTML
 
 ####None
 
@@ -63,9 +74,18 @@ clear: controls the behavior of floats
 }
 ````
 
+####Column
+
+Column is a new set of CSS properties that can be used to easily make multi-column text.
+  * CSS columns are very new, so you need to use the prefixes, and it won't work through IE9 or in Opera Mini.
+  * [Properties of Column](http://www.quirksmode.org/css/multicolumn.html)
+
 ##The Box Model
 
 box-sizing: used to simplify sizing elements
   * Setting box-sizing: border-box; on an element prevents the padding and border of that element from increasing its width
   * box-sizing is new, should use -webkit- and -moz- to enable experimental features in specific browsers
   
+##flexbox
+
+The new flexbox layout mode is poised to redefine how we do layouts in CSS.
