@@ -113,7 +113,7 @@ The text property edits more features in regards to how text looks, nothing to d
     * text-transform: lowercase, makes all of the text lowercase
     * text-transform: capitalize, capitalizes the first letter of each word
 
-*** line
+### line
 
 * line-height: sets the space between lines in paragraphs
 
