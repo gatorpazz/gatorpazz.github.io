@@ -86,4 +86,39 @@ Example:
 <button name="button">Click me</button>
 ```
 
-* `
+* `<select>`: represents a control that presents a menu of options. The options within the menu are represented by `<option>` elements, which can be grouped by `<optgroup>` elements. Options can be pre-selected for the user.
+Example:  
+```html
+<!-- The second value will be selected initially -->
+<select name="select">
+  <option value="value1">Value 1</option> 
+  <option value="value2" selected>Value 2</option>
+  <option value="value3">Value 3</option>
+</select>
+```
+Picture Example:  
+![alt text](http://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2009/02/html-select-optgroup.png)
+
+* `<textarea>`: Used when the input needs a lot of crap typed by the user. We're talking multiple lines here.  
+Example:
+```html
+<textarea name="textarea" rows="10" cols="50">Write something here</textarea>
+```
+Picture Example:
+![alt text](http://www.developer.am/pic/struts/Struts-textarea-example1.jpg)
+
+* `<datalist>`:contains a set of <option> elements that represent the values available for other controls.  
+Example:
+```html
+<div>Choose a browser from this list:</div>
+<input list="browsers" />
+<datalist id="browsers">
+  <option value="Chrome">
+  <option value="Firefox">
+  <option value="Internet Explorer">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+```
+Picture Example:  
+![alt text](http://minimul.com/images/html5-datalist-click.png)
