@@ -27,3 +27,63 @@ So we have <WORD for our structure so far. After that word we can declare a numb
     * start: specifies the start of the order, list can be ordered in with multiple styles but start always takes a number value.
     * type: specifies the type of character to be used in the ol, such as roman numerals.
 * `<dl>`: a description list element encloses a list of pairs of terms and definitions. Commonly used for glossaries and key value pairs. `<dt>` is used for the terms and `<dd>` for the descriptions.
+
+##### Form Elements
+
+HTML has a lot of useful form elements used to receive input from the user.  
+
+* `<form>`; the form element is the foundation for all html forms. It contains everything needed for a form.
+* `<fieldset>`: the fieldset element is used to group together controls and labels of the form.
+  * Attributes:
+    * disabled: disables the form controls that are its descendants.   
+    * form: This attribute has the value of the id attribute of the `<form>` element its related to. Its default value is the id of the nearest `<form>` element it is a descendant of.
+    * name: The name associated with the group, which is submitted with the form data.
+* `<legend>`: represents a caption for the content of its parent `<fieldset>`.
+![alt text](http://www.allthingsdiscussed.com/images/Legend_HTML_form.png)
+* `<input>`: input tags represent elements that the user can actually interact with. How an input works is associated with its type attribute.
+  * Types of input
+    * button: A push button with no default behavior.
+    * checkbox: A check box. You must use the value attribute to define the value submitted by this item. Use the checked attribute to indicate whether this item is selected. You can also use the indeterminate attribute to indicate that the checkbox is in an indeterminate state (on most platforms, this draws a horizontal line across the checkbox).
+    * color: HTML5 A control for specifying a color. A color picker's UI has no required features other than accepting simple colors as text (more info).
+    * date: HTML5 A control for entering a date (year, month, and day, with no time).
+    * datetime: HTML5 A control for entering a date and time (hour, minute, second, and fraction of a second) based on UTC time zone.
+    * datetime-local: HTML5 A control for entering a date and time, with no time zone.
+    * email: HTML5 A field for editing an e-mail address. The input value is validated to contain either the empty string or a single valid e-mail address before submitting. The :valid and :invalid CSS pseudo-classes are applied as appropriate.
+    * file: A control that lets the user select a file. Use the accept attribute to define the types of files that the control can select.
+    * hidden: A control that is not displayed, but whose value is submitted to the server.
+    * image: A graphical submit button. You must use the src attribute to define the source of the image and the alt attribute to define alternative text. You can use the height and width attributes to define the size of the image in pixels.
+    * month: HTML5 A control for entering a month and year, with no time zone.
+    * number: HTML5 A control for entering a floating point number.
+    * password: A single-line text field whose value is obscured. Use the maxlength attribute to specify the maximum length of the value that can be entered.
+    * radio: A radio button. You must use the value attribute to define the value submitted by this item. Use the checked attribute to indicate whether this item is selected by default. Radio buttons that have the same value for the name attribute are in the same "radio button group"; only one radio button in a group can be selected at one time.
+    * range: HTML5 A control for entering a number whose exact value is not important. This type control uses the following default values if the corresponding attributes are not specified:
+      * min: 0
+      * max: 100
+      * value: min + (max-min)/2, or min if max is less than min
+      * step: 1
+    * reset: A button that resets the contents of the form to default values.
+    * search: HTML5 A single-line text field for entering search strings; line-breaks are automatically removed from the input value.
+    * submit: A button that submits the form.
+    * tel: HTML5 A control for entering a telephone number; line-breaks are automatically removed from the input value, but no other syntax is enforced. You can use attributes such as pattern and maxlength to restrict values entered in the control. The :valid and :invalid CSS pseudo-classes are applied as appropriate.
+    * text: A single-line text field; line-breaks are automatically removed from the input value.
+    * time: HTML5 A control for entering a time value with no time zone.
+    * url: HTML5 A field for editing a URL. The input value is validated to contain either the empty string or a valid absolute URL before submitting. Line-breaks and leading or trailing whitespace are automatically removed from the input value. You can use attributes such as pattern and maxlength to restrict values entered in the control. The :valid and :invalid CSS pseudo-classes are applied as appropriate.
+    * week: HTML5 A control for entering a date consisting of a week-year number and a week number with no time zone.
+
+[Link to HTML5 form types](http://cdn.sixrevisions.com/demos/0345-new_html5_form_input_types/new-html5-form-input-types.html)
+
+* `<label>`: A label tag surrounds an input tag to provide context for that input field.
+Examples:  
+```html
+<label>Click me <input type="text" name="username"></label>
+```
+Picture:  
+![alt text](http://www.allthingsdiscussed.com/images/Label_HTML_form.png)
+
+* `<button>`: represents a clickable button.
+Example:  
+```html
+<button name="button">Click me</button>
+```
+
+* `
