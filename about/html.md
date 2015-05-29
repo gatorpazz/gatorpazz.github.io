@@ -122,3 +122,16 @@ Example:
 ```
 Picture Example:  
 ![alt text](http://minimul.com/images/html5-datalist-click.png)
+
+##### Table Elements
+
+* `<table>`: this is the foundation for making a table with HTML, It is filled with `<tr>` tags to make rows. It uses all of the global attributes but any unique attributes have been deprecated.
+  * `<caption>`: this is the element that specifies the title of a table. It is always the first descendant of a `<table>`  
+  * `<colgroup>`: defines a group of columns within HTML.  
+    * `<col>`: defines a column within HTML, sits in a `<colgroup>`.
+  * `<thead>`: defines a set of rows defining the head of the columns of the table.
+    * `<th>`: defines header cells in the `<thead>` element
+  * `<tbody>`: the main body of a table and has a bunch of `<tr>` elements that will make up the rows of the table.
+  * `<tfoot>`: makes the footer of the table, summarizes the columns.
+  * `<tr>`: defines a row of cells in html.
+  * `<td>`: defines an individual cell of data in a table.
