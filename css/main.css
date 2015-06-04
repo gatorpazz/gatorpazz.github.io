@@ -94,9 +94,18 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+nav {
+  border-bottom: 1px solid lightblue;
+}
 
+nav select {
+  width: 100%;
+  margin-bottom: 6.2em;
+}
 
-
+nav ul {
+  display: none;
+}
 
 
 
@@ -191,8 +200,14 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 33em) {
+    nav select {
+      display: none;
+    }
+
+    nav ul {
+      display: inline-block;
+    }
 }
 
 @media print,
