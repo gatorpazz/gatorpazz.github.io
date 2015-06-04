@@ -105,7 +105,7 @@ nav {
   display: block;
   text-align: right;
   border-bottom: 1px solid lightblue;
-  margin: 3em 5em 0 3em;
+  margin: 3em 3.6em 0 2.5em;
 }
 
 nav div {
@@ -115,6 +115,8 @@ nav div {
 nav select {
   width: 100%;
   margin:3ex 0 1.2em 0;
+  background-color: darkgrey;
+  color: darkblue;
 }
 
 nav ul {
@@ -122,11 +124,14 @@ nav ul {
 }
 
 nav ul li {
+  text-align: center;
   width: 30%;
   display: inline-block;
 }
 
-
+main .blog {
+  margin: 5ex 4em 0 4em;
+}
 
 
 
