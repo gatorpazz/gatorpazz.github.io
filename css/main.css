@@ -94,17 +94,36 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  color: white;
+  background-image: url("http://orig01.deviantart.net/fffa/f/2012/148/f/6/cool_background_by_harrywolke5-d51eq6a.jpg");
+}
+
 nav {
+  font-family: "Orbitron";
+  font-size: 20pt;
+  display: block;
+  text-align: right;
   border-bottom: 1px solid lightblue;
+  margin: 3em 5em 0 3em;
+}
+
+nav div {
+  text-align: left;
 }
 
 nav select {
   width: 100%;
-  margin-bottom: 6.2em;
+  margin:3ex 0 1.2em 0;
 }
 
 nav ul {
   display: none;
+}
+
+nav ul li {
+  width: 30%;
+  display: inline-block;
 }
 
 
@@ -206,7 +225,7 @@ nav ul {
     }
 
     nav ul {
-      display: inline-block;
+      display: block;
     }
 }
 
