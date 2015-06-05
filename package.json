@@ -1,0 +1,20 @@
+{
+  "name": "gatorpazz.github.io",
+  "version": "0.0.0",
+  "description": "--- permalink: index.html ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files='index.html,css/*.css,js/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatorpazz/gatorpazz.github.io.git"
+  },
+  "author": "Emperor Palpatine",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/gatorpazz/gatorpazz.github.io/issues"
+  },
+  "homepage": "https://github.com/gatorpazz/gatorpazz.github.io"
+}
