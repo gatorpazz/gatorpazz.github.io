@@ -32,6 +32,11 @@
         </ul>
     </nav>
     <main>
+        <ul>
+        {% for post in site.posts %}
+            <li> <a href="{{pos.url}}">{{post.title}}</a>
+        {% endfor %}
+        </ul>
         <div class="blog">
             <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
             <h1>Week One</h1>
