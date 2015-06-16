@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body {
-  color: black;
+  color: gold;
   background-image: url("http://orig01.deviantart.net/fffa/f/2012/148/f/6/cool_background_by_harrywolke5-d51eq6a.jpg");
 }
 
@@ -118,8 +118,8 @@ nav div {
 #topNavBar select {
   width: 100%;
   margin:3ex 0 1.2em 0;
-  background-color: darkgrey;
-  color: darkblue;
+  background-color: transparent;
+  color: darkgrey;
 }
 
 nav ul {
@@ -148,7 +148,53 @@ main .blog {
   text-align: left;
 }
 
+form {
+  margin: 5ex 4em 0 4em;
+}
 
+label, input {
+  display: block;
+  margin-bottom: .5em;
+  width: 100%;
+  background-color: transparent;
+  font-size: 13pt;
+}
+
+textarea {
+  height: 10em;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+}
+
+footer {
+  display: block;
+  height: 10ex;
+  width: auto;
+  margin-right: 5em;
+}
+
+.footer-social {
+  float: right;
+  margin-top:5px;
+  height:30px;
+}
+
+.footer-social ul {
+  float:left;
+  padding:0;
+  margin:0;
+}
+
+.footer-social li {
+  float:left;
+  list-style:none;
+  margin-left:5px;
+}
+
+.footer-social span {
+  float:left;
+}
 
 
 
