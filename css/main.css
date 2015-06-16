@@ -159,6 +159,7 @@ label, input {
   width: 100%;
   background-color: transparent;
   font-size: 13pt;
+  max-width: 20em;
 }
 
 textarea {
@@ -166,6 +167,7 @@ textarea {
   width: 100%;
   background-color: transparent;
   color: white;
+  max-width: 30em;
 }
 
 footer {
