@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav id="topNavBar">
         <div>
             <img src="img/logo.png" alt="logo">
         </div>
@@ -32,24 +32,70 @@
         </ul>
     </nav>
     <main>
-        <div class="blog">
+        <div class="blog" id="weekOne" data-blog="1">
             <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
             <h1>Week One</h1>
             <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
             </p>
             <p>Variety strong organic trifecta cream irish organic. Qui, doppio carajillo cup mocha ut doppio, americano robusta black brewed roast.
             </p>
-            <p>I mean, it's one banana, Michael. What could it cost, ten dollars? Tobias is Queen Mary. Let's make Ann the backup, okay? Very good way to think about her, as a backup. Can you believe that the only reason the club is going under is because it's in a terrifying neighborhood? Mr. Zuckerkorn, you've been warned about touching. You said spanking. I just don't want him to point out my cracker ass in front of Ann.
+            <p>I mean, it's one banana, Michael. What could it cost, ten dollars? Tobias is Queen Mary. Let's make Ann the backup, okay? Very good way to think about her, as a backup. Can you believe that the only reason the club is going under is because
+                it's in a terrifying neighborhood? Mr. Zuckerkorn, you've been warned about touching. You said spanking. I just don't want him to point out my cracker ass in front of Ann.
             </p>
         </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-            window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-        </script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-      </main>
+        <div class="blog hidden" id="weekTwo">
+          <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
+          <h1>Week Two</h1>
+          <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
+          </p>
+          <p>Variety strong organic trifecta cream irish organic. Qui, doppio carajillo cup mocha ut doppio, americano robusta black brewed roast.
+          </p>
+          <p>I mean, it's one banana, Michael. What could it cost, ten dollars? Tobias is Queen Mary. Let's make Ann the backup, okay? Very good way to think about her, as a backup. Can you believe that the only reason the club is going under is because
+              it's in a terrifying neighborhood? Mr. Zuckerkorn, you've been warned about touching. You said spanking. I just don't want him to point out my cracker ass in front of Ann.
+          </p>
+        </div>
+        <div class="blog hidden" id="weekThree">
+          <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
+          <h1>Week Three</h1>
+          <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
+          </p>
+          <p>Variety strong organic trifecta cream irish organic. Qui, doppio carajillo cup mocha ut doppio, americano robusta black brewed roast.
+          </p>
+          <p>I mean, it's one banana, Michael. What could it cost, ten dollars? Tobias is Queen Mary. Let's make Ann the backup, okay? Very good way to think about her, as a backup. Can you believe that the only reason the club is going under is because
+              it's in a terrifying neighborhood? Mr. Zuckerkorn, you've been warned about touching. You said spanking. I just don't want him to point out my cracker ass in front of Ann.
+          </p>
+        </div>
+        <div class="blog hidden" id="weekFour">
+          <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
+          <h1>Week Four</h1>
+          <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
+          </p>
+          <p>Variety strong organic trifecta cream irish organic. Qui, doppio carajillo cup mocha ut doppio, americano robusta black brewed roast.
+          </p>
+          <p>I mean, it's one banana, Michael. What could it cost, ten dollars? Tobias is Queen Mary. Let's make Ann the backup, okay? Very good way to think about her, as a backup. Can you believe that the only reason the club is going under is because
+              it's in a terrifying neighborhood? Mr. Zuckerkorn, you've been warned about touching. You said spanking. I just don't want him to point out my cracker ass in front of Ann.
+          </p>
+        </div>
+        <aside id="right">
+          <h2>Blog Posts</h2>
+          <nav id ="rightNavBar">
+            <ul>
+              <li><a data-blog="1" href='#weekOne'>Week 1</a></li>
+              <li><a class="link" href='#weekTwo'>Week 2</a></li>
+              <li><a class="link" href='#weekThree'>Week 3</a></li>
+              <li><a class="link" href='#weekFour'>Week 4</a></li>
+              <li><a class="link" >Week 5</a></li>
+              <li><a class="link" >Week 6</a></li>
+            </ul>
+          </nav>
+        </aside>
+    </main>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
