@@ -149,6 +149,7 @@ main .blog {
 }
 
 form {
+  clear: both;
   margin: 5ex 4em 0 4em;
 }
 
