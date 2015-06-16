@@ -28,6 +28,20 @@ HTTP/1.1 401 Unauthorized
 
 You can make requests with the GET command
 
+1) To request specific user profile information from the API:
+  * `GET /users/:username` or (`curl -i https://api.github.com/users/USERNAME`)
+2) To request repository information from a specific user:
+  * `GET /users/:username/repos` or (`curl -i https://api.github.com/users/USERNAME/repos`)
+3) How to retrieve recent public activity for a specific user:
+  * `GET /users/:username/events/public` or (`curl -1 https://api.github.com/users/USERNAME/events/public`) _research this further_
+
+##### Data Return
+1) If a large amount of data is returned, what happens?
+  * Paginated to 30 items by default
+  * Specify further information with the '?page' parameter
+  * Specify less information by restricting items returned per page with the '?per-page' parameter
+  * View infromation on data available in the pagination info within the 'Link Header'
+
 ### Rate Limiting
 
 Requests have limits on GitHub. For requests using Basic Authentication or OAuth, you can make up to 5,000 requests per hour. For unauthenticated requests, the rate limit allows you to make up to 60 requests per hour. Unauthenticated requests are associated with your IP address, and not the user making requests. 

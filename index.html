@@ -1,10 +1,13 @@
+---
+title: Pimpin Blog
+---
 <!doctype html>
 <html class="no-js" lang="">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title></title>
+    <title>{{page.title}}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
@@ -33,6 +36,10 @@
     </nav>
     <main>
         <div class="blog" id="weekOne" data-blog="1">
+        <ul>
+            <li> <a href="{{post.url}}">{{post.title}}</a>
+        </ul>
+        <div class="blog">
             <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
             <h1>Week One</h1>
             <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
