@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/gatorpazz/gatorpazz.github.io/issues"
   },
-  "homepage": "https://github.com/gatorpazz/gatorpazz.github.io"
+  "homepage": "https://github.com/gatorpazz/gatorpazz.github.io",
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.1"
+  }
 }
