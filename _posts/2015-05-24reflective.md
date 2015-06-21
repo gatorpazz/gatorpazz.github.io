@@ -1,6 +1,11 @@
+---
+layout: post
+title: A Mess of CSS
+---
+
 ### A Mess of CSS
 
-So for week 3 we learned all about the magical world of CSS. In all honesty I thought it was pretty great because CSS makes a lot of things that would be difficult or tedious to do in HTML or Javascript way more streamlined. 
+So for week 3 we learned all about the magical world of CSS. In all honesty I thought it was pretty great because CSS makes a lot of things that would be difficult or tedious to do in HTML or Javascript way more streamlined.
 
 This week I felt has been a very welcome break thanks to the two day conference and the Monday Memorial Day Break. I was able to slow down and really take the time to shore up some shakey foundations in gluing all the pieces of web application development together in a coherent form. I was able to work through a lot of code school and code academy and really started getting the hang of jQuery and even adventuring to parts of unknown wilderness.  
 

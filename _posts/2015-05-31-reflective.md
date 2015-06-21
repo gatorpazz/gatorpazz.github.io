@@ -1,4 +1,9 @@
-Rough draft
+---
+layout: post
+title: Chessboard Extravaganza
+---
+
+#Chessboard Extravaganza
 
 During week 4 a new project came that was the bane of my existence, a freakin chessboard that moves through a set of moves (that hopefully one day moves back). Sounds simple right? WRONG!!!!! One thing I will say that I'm proud of is that we built every scrap of this thing ourselves, no blueprints ripped off from the internet. I might still have needed a bit of help getting started, but I understood what was explained made many pieces of it by myself.
 

@@ -1,4 +1,9 @@
-Week 6 Reflective Journal Rough Draft
+---
+layout: post
+title: APIs and How I Hate Them
+---
+
+# APIs and How I Hate Them
 
 Week 6 was both really amazing and really hard. I feel like I’m really starting to come into myself as a Front End Developer, being able to work in all of the languages to manipulate code into something that looks like a halfway decent webpage. At the same time APIs really wreck my brain. I feel like it’s something that will get easier as time goes along, and something that later tools might be able to really help with.
 
