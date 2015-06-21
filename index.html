@@ -30,7 +30,7 @@ title: Pimpin Blog
             <option value="week4">Week Four</option>
         </select>
         <ul>
-            <li>Home</li>
+            <li id="home">Home</li>
             <li>Contact</li>
         </ul>
     </nav>
@@ -40,6 +40,14 @@ title: Pimpin Blog
             <li> <a href="{{post.url}}">{{post.title}}</a>
         </ul>
         <div class="blog">
+        <div class="blog hidden" id="homepage">
+          <h1>Welcome to my blog!</h1>
+          <p>I am just starting out in the world of software engineering. I've been at the Iron Yard for over 6 weeks and I've learned so much about programming and the real world skills needed to be a developer.
+          </p>
+          <h2>A Bit About Me</h2>
+          <p> I am 22 years old, and a student at the Florida Institute of Technology. I am engaged to be married to the love of my life this upcoming December.</p>
+        </div>
+        <div class="blog" id="weekOne">
             <time datetime="2015-05-23 21:30">May 23, 2015 11:30PM</time>
             <h1>Week One</h1>
             <p>Sweet cultivar coffee foam, as seasonal half and half eu trifecta coffee. Mocha saucer filter roast in seasonal barista grinder.
