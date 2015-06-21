@@ -148,6 +148,10 @@ main .blog {
   text-align: left;
 }
 
+#home {
+  cursor: pointer;
+}
+
 form {
   clear: both;
   margin: 5ex 4em 0 4em;
