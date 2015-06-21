@@ -1,0 +1,3 @@
+One of my favorite tools that we have learned about is Yeoman. Yeoman is a command line tool that basically gets the project going. Mainly we use it to automatically set up h5bp into our local repo and we immediately have a base from which to build upon. It can do so much more I’m sure, and I have yet to really delve in and see what other things this amazing tool can do.
+
+http://yeoman.io/
