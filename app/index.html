@@ -16,7 +16,27 @@
 
   </head>
   <body>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li data-section="projectsSection">Projects</li>
+        <li data-section="resumeSection">Resume</li>
+      </ul>
+    </nav>
     <h1>Michael Portfolio Site</h1>
+    <main>
+      <section data-section="projectsSection">
+        <h2>Projects</h2>
+      </section>
+      <section class="sectionActive" data-section="resumeSection">
+        <h2>Resume</h2>
+      </section>
+      <section data-section="contactUsSection">
+        <h2>Contact Me</h2>
+      </section>
+    </main>
+    <footer>
+    </footer>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -24,6 +44,7 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/main.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
   </body>
