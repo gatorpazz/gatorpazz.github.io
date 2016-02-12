@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="" ng-app="quiz">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>True &amp; False</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body ng-controller="QuizController as quiz">
+
+        <h1>True or False Quiz</h1>
+        <button ng-click="quiz.setCurrentQuestion(1)" ng-hide="quiz.currentQuestion">Start</button>
+        <section ng-repeat="question in quiz.questions" ng-show="quiz.currentQuestion === question.id">
+          <h2>Question {{question.id}}</h2>
+          <h3>{{question.text}}</h3>
+          <button ng-click="quiz.setAnswer(true); quiz.nextQuestion()">True</button>
+          <button ng-click="quiz.setAnswer(false); quiz.nextQuestion()">False</button>
+        </section>
+        <section ng-show="quiz.currentQuestion === quiz.questions.length + 1">
+          <h2>Your Answers</h2>
+          <div ng-repeat="answer in quiz.answers">
+            <p>Question {{ answer.id }}</p>
+            <p>Your Answer: {{ answer.selected }}</p>
+          </div>
+          <button ng-click="quiz.setCurrentQuestion(1)">Play Again!</button>
+        </section>
+
+        <script src="js/angular.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
