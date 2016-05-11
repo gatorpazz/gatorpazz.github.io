@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content =" initial-scale = 1, maximum-scale = 1, user-scalable = no" />
   <title>Michael Pascuzzi Portfolio Site</title>
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
@@ -12,67 +12,42 @@
   <!-- endbuild -->
 
   <!-- build:css styles/main.css -->
+  <link rel="stylesheet"
+    href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
   <link rel="stylesheet" href="styles/main.css">
   <!-- endbuild -->
 
 </head>
 
-<body>
-  <nav>
-    <ul>
-      <li>Home</li>
-      <li data-section="projectsSection">Projects</li>
-      <li data-section="resumeSection">Resume</li>
-    </ul>
-  </nav>
-  <h1>Michael Portfolio Site</h1>
-  <main>
-    <section data-section="projectsSection">
-      <h2>Projects</h2>
-    </section>
-    <section class="sectionActive" data-section="resumeSection">
-      <h2>Resume</h2>
-      <header>
-        <h3>Michael Pascuzzi</h3>
-        <a href="mailto:gatorpazz@gmail.com">gatorpazz@gmail.com</a>
-        <p>Github Profile: <a href="github.com/gatorpazz">h​ttps://github.com/gatorpazz</a></p>
-      </header>
-      <header>
-        <h3>Career Objective</h3>
-      </header>
-      <p>To increase my knowledge and proficiency with web development technologies, to expand my front end skills to the backend and become a full stack javascript developer.</p>
-      <header>
-        <h3>Education</h3>
-      </header>
-      <ul>
-        <li>B.S. in Computer Information Systems, Florida Institute of Technology, Melbourne, FL, anticipated graduation: Dec 2017</li>
-        <li>The Iron Yard Front End Development Program, a twelve week intensive programming course designed to instill the fundamentals of web development and be an intensive introduction to programming skills necessary to obtain an entry level developer
-          position. Orlando, FL, taught by developer­ Dave Rogers.</li>
-      </ul>
-      <header>
-        <h3>Military Service</h3>
-      </header>
-      <p>Florida Army National Guard</p>
-      <p>Infantryman</p>
-      <p>Duties: Train for combat deployment and natural disaster aid.</p>
-      <p>Mar. 2011 to Present</p>
-    </section>
-    <section data-section="contactUsSection">
-      <h2>Contact Me</h2>
-    </section>
-  </main>
-  <footer>
-  </footer>
+<body ng-app="Portfolio"
+  layout="column">
 
+  <div layout="row" layout-margin
+       layout-padding
+       layout-fill>
+    <div flex>Cell #1</div>
+    <div flex>Cell #2</div>
+    <div flex>Cell #3</div>
+  </div>
   <!-- build:js scripts/vendor.js -->
   <!-- bower:js -->
   <!-- endbower -->
   <!-- endbuild -->
 
   <!-- build:js scripts/main.js -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script src="scripts/main.js"></script>
   <!-- endbuild -->
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+  <script src="scripts/main.js"></script>
+  <script src="scripts/layout.js"></script>
 </body>
 
 </html>

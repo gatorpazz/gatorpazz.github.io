@@ -1,28 +1,9 @@
-body {
-  max-width: 1120px;
-  margin: 0 auto;
-}
-nav ul {
-  padding-left: 0;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-nav li {
-  cursor: pointer;
-  list-style: none;
-  padding: 1ex;
-}
-section {
-  display: none;
-}
-header {
+div.flex {
+  border: 1px dotted gray;
+  background-color: #FFE0B2; /* Orange 100 */
   text-align: center;
 }
-.sectionActive {
-  display: block;
-}
-.navActive {
-  background-color: lightblue;
+
+div.layout-row {
+  background-color: #90CAF9; /* Blue 200 */
 }
