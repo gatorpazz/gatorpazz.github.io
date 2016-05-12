@@ -1,14 +1,8 @@
 angular
-    .module('Portfolio', ['ngMaterial'])
+    .module('Portfolio', ['ngMaterial', 'dives'])
     .config(function($mdThemingProvider){
-      $mdThemingProvider.theme('custom1Theme')
-        .primaryPalette('orange')
-        .accentPalette('blue')
-        .warnPalette('pink');
-      $mdThemingProvider.theme('custom2Theme')
-          .primaryPalette('green')
-          .accentPalette('lime')
-          .warnPalette('pink')
+      $mdThemingProvider.theme('default')
+          .primaryPalette('red')
+          .accentPalette('orange')
           .dark();
-      $mdThemingProvider.alwaysWatchTheme(true);
     });
