@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content =" initial-scale = 1, maximum-scale = 1, user-scalable = no" />
+  <title>Michael Pascuzzi Portfolio Site</title>
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet"
+        href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900,300italic,400italic,500italic,700italic,900italic">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="/icons/sprite-communication-black.css"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+  <!-- endbuild -->
+
+</head>
+
+<body ng-app="Portfolio" layout="column"
+  ng-controller="DiveLogController">
+  <!-- Single column -->
+  <div layout="column" layout-fill>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        Gatorpazz
+        <span flex></span>
+        <md-button>
+          About
+        </md-button>
+        <md-button>
+          Projects
+        </md-button>
+        <md-button>
+          Contact
+        </md-button>
+      </div>
+    </md-toolbar>
+    <div>
+      <h1 class="md-display-3 title">Michael Pascuzzi</h1>
+    </div>
+    <md-content flex>
+      <h1 class="md-display-1">Projects</h1>
+      <md-tabs md-border-bottom md-align-tabs="bottom" md-dynamic-height>
+        <md-tab label="Picture">
+          <md-content class="md-padding">
+            <h2 class="md-display-1">Florida Cruise Ports</h2>
+            <img src="/images/gpc.jpg" alt="Florida Cruise Ports Homepage"/ height="300" width="400">
+          </md-content>
+        </md-tab>
+        <md-tab label="Description">
+          <md-content class="md-padding">
+            <p class="md-body-1">
+              Florida Cruise Ports is an travel company that sells
+            </p>
+          </md-content>
+        </md-tab>
+        <md-tab label="Techs Used">
+          <md-content class="md-padding">
+            <h1 class="md-display-1">Photos</h1>
+            <p class="md-body-1">
+              This tab will display the photos taken during the dive
+            </p>
+          </md-content>
+        </md-tab>
+      </md-tabs>
+      <md-tabs md-border-bottom md-align-tabs="bottom">
+        <md-tab label="Picture">
+          <md-content class="md-padding">
+            <h1 class="md-display-1">Life of A Story</h1>
+            <p class="md-body-1">
+              This tab will show the picture
+            </p>
+          </md-content>
+        </md-tab>
+        <md-tab label="Description">
+          <md-content class="md-padding">
+            <h1 class="md-display-1">Dive site</h1>
+            <p class="md-body-1">
+              This tab will show the dive site description
+            </p>
+          </md-content>
+        </md-tab>
+        <md-tab label="Techs Used">
+          <md-content class="md-padding">
+            <h1 class="md-display-1">Photos</h1>
+            <p class="md-body-1">
+              This tab will display the photos taken during the dive
+            </p>
+          </md-content>
+        </md-tab>
+      </md-tabs>
+    </md-content>
+    <md-toolbar class="md-accent">
+      <div class="md-toolbar-tools">
+        Copyright © Michael Pascuzzi 2016. All Rights Reserved
+      </div>
+    </md-toolbar>
+  </div>
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <!-- endbuild -->
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+  <script src="scripts/main.js"></script>
+  <script src="scripts/dives.js"></script>
+</body>
+
+</html>
