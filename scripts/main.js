@@ -1,5 +1,5 @@
 angular
-    .module('Portfolio', ['ngMaterial', 'dives'])
+    .module('Portfolio', ['ngMaterial'])
     .config(function($mdThemingProvider){
       $mdThemingProvider.theme('default')
           .primaryPalette('red')
