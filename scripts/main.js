@@ -5,4 +5,7 @@ angular
           .primaryPalette('red')
           .accentPalette('orange')
           .dark();
+    })
+    .config(function($mdIconProvider) {
+      $mdIconProvider.defaultIconSet('/images/mdi.svg')
     });
