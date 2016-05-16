@@ -7,5 +7,5 @@ angular
           .dark();
     })
     .config(function($mdIconProvider) {
-      $mdIconProvider.defaultIconSet('/images/mdi.svg', 24)
+      $mdIconProvider.defaultIconSet('/images/mdi.svg', 10)
     });
