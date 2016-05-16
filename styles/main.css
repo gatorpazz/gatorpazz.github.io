@@ -9,3 +9,8 @@
 .tabContent {
   min-height: 200px;
 }
+@media (max-width: 750px) {
+  .description {
+    width: 87%;
+  }
+}
