@@ -16,8 +16,8 @@ angular
         'A200': '#ffaeb3',
         'A400': '#ffc8cb',
         'A700': '#7b0006'
-      },
-      customAccent = {
+      };
+      var customAccent = {
         '50': '#000a08',
         '100': '#00231d',
         '200': '#003d31',
@@ -32,8 +32,8 @@ angular
         'A200': '#00a383',
         'A400': '#00896f',
         'A700': '#23ffd4'
-      },
-      customWarn = {
+      };
+      var customWarn = {
         '50': '#ffb280',
         '100': '#ffa266',
         '200': '#ff934d',
@@ -48,8 +48,8 @@ angular
         'A200': '#ffd1b3',
         'A400': '#ffe0cc',
         'A700': '#803200'
-      },
-      customBackground = {
+      };
+      var customBackground = {
         '50': '#737373',
         '100': '#666666',
         '200': '#595959',
@@ -79,14 +79,3 @@ angular
     .config(function($mdIconProvider) {
       $mdIconProvider.defaultIconSet('/images/mdi.svg')
     });
-
-function scrollTo(target) {
-    var offset;
-    var scrollSpeed = 600;
-    var wheight = $(window).height();
-	var viewport = $(window).width();
-
-    offset = $(target).offset().top - 77.5;
-
-    $('html, body').animate({scrollTop:offset}, scrollSpeed);
-}
