@@ -1,5 +1,4 @@
-angular
-    .module('Portfolio', ['ngMaterial'])
+angular.module('Portfolio', ['ngMaterial'])
     .config(function($mdThemingProvider, palettes){
       var customPrimary = {
         '50': '#ff7b82',
