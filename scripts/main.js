@@ -2,8 +2,8 @@ angular
     .module('Portfolio', ['ngMaterial'])
     .config(function($mdThemingProvider){
       $mdThemingProvider.theme('default')
-          .primaryPalette('red')
-          .accentPalette('orange')
+          .primaryPalette('blue-grey')
+          .accentPalette('amber')
           .dark();
     })
     .config(function($mdIconProvider) {
