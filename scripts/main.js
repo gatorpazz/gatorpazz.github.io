@@ -3,7 +3,7 @@ angular
     .config(function($mdThemingProvider){
       $mdThemingProvider.theme('default')
           .primaryPalette('blue-grey')
-          .accentPalette('amber')
+          .accentPalette('indigo')
           .dark();
     })
     .config(function($mdIconProvider) {
