@@ -27,19 +27,19 @@
       <div class="md-toolbar-tools">
         Gatorpazz
         <span flex></span>
-        <md-button onclick="scrollTo('.aboutMe')">
+        <md-button href="#aboutMe">
           About
         </md-button>
-        <md-button onclick="scrollTo('.projects')">
+        <md-button href="#projects">
           Projects
         </md-button>
-        <md-button onclick="scrollTo('.contact')">
+        <md-button href="#contact">
           Contact
         </md-button>
       </div>
     </md-toolbar>
     <md-content flex>
-      <div class="aboutMe">
+      <div class="aboutMe" id="aboutMe">
         <h1 class="md-display-3 center">Michael Pascuzzi</h1>
         <h2 class="md-display-1 center">A Little About Me</h2>
         <div layout-gt-xs="row" layout-xs="column">
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <h3 class="md-display-2 center projects">Projects</h3>
+      <h3 class="md-display-2 center" id="projects">Projects</h3>
       <md-tabs md-border-bottom md-align-tabs="bottom" md-dynamic-height md-center-tabs>
         <md-tab label="Picture">
           <md-content class="md-padding center">
@@ -114,7 +114,7 @@
           </md-content>
         </md-tab>
       </md-tabs>
-      <div class="contact center">
+      <div class="center" id="contact">
         <h2 class="md-display-1 center">Contact Me</h2>
         <md-button aria-label="LinkedIn" class="md-icon-button" href="https://www.linkedin.com/in/michael-pascuzzi-b0090592">
           <md-icon md-svg-icon="linkedin-box"></md-icon>
@@ -151,7 +151,6 @@
 
   <!-- Angular Material Library -->
   <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="scripts/main.js"></script>
 
 </body>
